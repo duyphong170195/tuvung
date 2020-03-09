@@ -1411,3 +1411,12 @@ tr{vertical-align: top;}
   color: black;
   font-weight: bold;
 }
+
+.front-ground {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 56%;
+  height: 10000px;
+  background-color: #000;
+}

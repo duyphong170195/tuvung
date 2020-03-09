@@ -887,3 +887,9 @@ $("#test-text2").mouseup(function (e2) {
 
 
 
+  document.onkeyup = function(e) {
+    if(e.ctrlKey && e.which == 66) {
+      var ele = document.getElementById("front-ground");
+      ele.style.visibility = ele.style.visibility == "hidden" ? "visible" : "hidden" ; 
+    }
+  }
